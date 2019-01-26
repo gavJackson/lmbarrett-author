@@ -5,6 +5,15 @@ This repository contains the code for LM Barrett's website.
 
 http://www.lmbarrett-author.com/
 
+About this project
+----
+
+This website is an attempt to provide Single Page Application style experience with as little JavaScript code as possible.
+
+Most of the clever bits are done using CSS and native browser features like `position:sticky` - there is a rudamentary router implementation in JavaScript and some clever loading stuff and thats about it.
+
+The idea is that by keeping this site as simple as possible, it will be more accessible to SEO robots.  It's fully functional even if you turn JavaScript off in your browser!
+
 About the author
 ----
 
