@@ -52,15 +52,16 @@ h1{
 	margin-top: 30px;
 }
 	.reflection{
-		.gradient-text(@yellow, @darkYellow);
+		.gradient-text(white, @lightGrey);
 
 		font-family: @bodyFont;
-		font-size: 33px;
+		font-size: 53px;
 		display: block;
+		margin-bottom: -20px;
 	}
 
 	.sophie{
-		.gradient-text(white, @lightGrey);
+		.gradient-text(@yellow, @darkYellow);
 
 		display: block;
 	}
@@ -100,7 +101,7 @@ h4{
 ///////////////////////////////
 
 .intro, strong, a {
-	font-family: @bodyFont;
+	font-family: @headerFont;
 }
 
 .intro{
@@ -114,7 +115,7 @@ strong, a{
 }
 
 p{
-	font-family: "ParagraphFont", "Times New Roman";
+	font-family: fira-sans; //@bodyFont; //"ParagraphFont", "Times New Roman";
 	font-size: 16px;
 	line-height: 22px;
 	margin-bottom: 20px;

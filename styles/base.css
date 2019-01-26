@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/ted8ezg.css");
 /*
 YUI 3.4.1 (build 4118)
 Copyright 2011 Yahoo! Inc. All rights reserved.
@@ -3103,7 +3104,7 @@ body {
   color: white;
   padding: 0px;
   margin: 0px;
-  font-family: 'BodyFont', 'Helvetica', 'Arial', sans-serif;
+  font-family: alternate-gothic-no-1-d, sans-serif, 'BodyFont', 'Helvetica', 'Arial', sans-serif;
   font-size: 18px;
 }
 .side-bar,
@@ -3205,27 +3206,6 @@ body {
     }
   }
 }
-@font-face {
-  font-family: "BodyFont";
-  src: url("../assets/fonts/helvetica-condensed-bold-webfont.eot");
-  src: url("../assets/fonts/helvetica-condensed-bold-webfont.eot?#iefix") format('embedded-opentype'), url("../assets/fonts/helvetica-condensed-bold-webfont.svg?#BodyFont") format('svg'), url("../assets/fonts/helvetica-condensed-bold-webfont.woff") format('woff'), url("../assets/fonts/helvetica-condensed-bold-webfont.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "HeaderFont";
-  src: url("../assets/fonts/helveticaneue-thin-webfont.eot");
-  src: url("../assets/fonts/helveticaneue-thin-webfont.eot?#iefix") format('embedded-opentype'), url("../assets/fonts/helveticaneue-thin-webfont.svg?#HeaderFont") format('svg'), url("../assets/fonts/helveticaneue-thin-webfont.woff") format('woff'), url("../assets/fonts/helveticaneue-thin-webfont.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "ParagraphFont";
-  src: url("../assets/fonts/helveticaneue_medium-webfont.eot");
-  src: url("../assets/fonts/helveticaneue_medium-webfont.eot?#iefix") format('embedded-opentype'), url("../assets/fonts/helveticaneue_medium-webfont.svg?#ParagraphFont") format('svg'), url("../assets/fonts/helveticaneue_medium-webfont.woff") format('woff'), url("../assets/fonts/helveticaneue_medium-webfont.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
 .main-container {
   max-width: 1050px;
   padding-left: 150px;
@@ -3265,9 +3245,12 @@ body {
 }
 .nav-item {
   list-style: none;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
   cursor: pointer;
   position: relative;
+}
+.nav-item a {
+  font-family: jeff-script;
 }
 .nav-item:hover {
   background-color: #ff6c00;
@@ -3389,7 +3372,7 @@ body {
   padding: 10px 15px;
   font-size: 15px;
   text-transform: uppercase;
-  font-family: 'BodyFont', 'Helvetica', 'Arial', sans-serif;
+  font-family: alternate-gothic-no-1-d, sans-serif, 'BodyFont', 'Helvetica', 'Arial', sans-serif;
   border: none;
   background-color: white;
 }
@@ -3405,8 +3388,8 @@ body {
   background: -webkit-linear-gradient(#ffe534, #aa9100);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'BodyFont', 'Helvetica', 'Arial', sans-serif;
-  font-size: 25px;
+  font-family: almaq-refined, sans-serif, 'HeaderFont', 'Helvetica', 'Arial', sans-serif;
+  font-size: 30px;
   text-transform: uppercase;
 }
 .tag-line {
@@ -3420,7 +3403,7 @@ body {
 }
 @media (max-width: 470px) {
   .tag-line {
-    width: 100%;
+    width: 90%;
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -3431,6 +3414,7 @@ body {
   }
 }
 .buy-it-now {
+  font-family: almaq-refined, sans-serif, 'HeaderFont', 'Helvetica', 'Arial', sans-serif;
   cursor: pointer;
 }
 .buy-it-now:hover a {
@@ -3467,7 +3451,7 @@ body {
   padding: 15px 20px;
   font-size: 20px;
   text-transform: uppercase;
-  font-family: 'BodyFont', 'Helvetica', 'Arial', sans-serif;
+  font-family: almaq-refined, sans-serif, 'HeaderFont', 'Helvetica', 'Arial', sans-serif;
   border: none;
   background-color: white;
   color: black;
@@ -3513,23 +3497,24 @@ body {
   }
 }
 h1 {
-  font-family: 'HeaderFont', 'Helvetica', 'Arial', sans-serif;
+  font-family: almaq-refined, sans-serif, 'HeaderFont', 'Helvetica', 'Arial', sans-serif;
   font-size: 68px;
   text-transform: uppercase;
   margin-top: 30px;
 }
 .reflection {
-  color: #ffe534;
-  background: -webkit-linear-gradient(#ffe534, #aa9100);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: 'BodyFont', 'Helvetica', 'Arial', sans-serif;
-  font-size: 33px;
-  display: block;
-}
-.sophie {
   color: #ffffff;
   background: -webkit-linear-gradient(#ffffff, #b3b3b3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: alternate-gothic-no-1-d, sans-serif, 'BodyFont', 'Helvetica', 'Arial', sans-serif;
+  font-size: 53px;
+  display: block;
+  margin-bottom: -20px;
+}
+.sophie {
+  color: #ffe534;
+  background: -webkit-linear-gradient(#ffe534, #aa9100);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: block;
@@ -3543,7 +3528,7 @@ h2 {
   margin-top: 30px;
 }
 h3 {
-  font-family: 'HeaderFont', 'Helvetica', 'Arial', sans-serif;
+  font-family: almaq-refined, sans-serif, 'HeaderFont', 'Helvetica', 'Arial', sans-serif;
   font-size: 28px;
   text-transform: uppercase;
   margin-top: 10px;
@@ -3560,7 +3545,7 @@ h4 {
 .intro,
 strong,
 a {
-  font-family: 'BodyFont', 'Helvetica', 'Arial', sans-serif;
+  font-family: almaq-refined, sans-serif, 'HeaderFont', 'Helvetica', 'Arial', sans-serif;
 }
 .intro {
   color: #ff6c00;
@@ -3572,7 +3557,7 @@ a {
   color: #ffe534;
 }
 p {
-  font-family: "ParagraphFont", "Times New Roman";
+  font-family: fira-sans;
   font-size: 16px;
   line-height: 22px;
   margin-bottom: 20px;
@@ -3592,7 +3577,7 @@ a.anchor {
   margin-left: -5px;
 }
 .reviewer {
-  font-family: 'BodyFont', 'Helvetica', 'Arial', sans-serif;
+  font-family: alternate-gothic-no-1-d, sans-serif, 'BodyFont', 'Helvetica', 'Arial', sans-serif;
 }
 #mc_embed_signup form {
   background-color: black;
@@ -3609,7 +3594,7 @@ a.anchor {
   padding: 15px 20px;
   font-size: 20px;
   text-transform: uppercase;
-  font-family: 'BodyFont', 'Helvetica', 'Arial', sans-serif;
+  font-family: alternate-gothic-no-1-d, sans-serif, 'BodyFont', 'Helvetica', 'Arial', sans-serif;
   border: none;
   background-color: white;
   color: black;
@@ -3645,7 +3630,7 @@ a.anchor {
   -webkit-text-fill-color: transparent;
 }
 .next {
-  font-family: 'HeaderFont', 'Helvetica', 'Arial', sans-serif;
+  font-family: almaq-refined, sans-serif, 'HeaderFont', 'Helvetica', 'Arial', sans-serif;
   font-size: 20px;
 }
 .sub-title {
